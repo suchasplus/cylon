@@ -11,14 +11,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.RequestBuilder;
 
-import static org.junit.matchers.JUnitMatchers.containsString;
+
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import javax.servlet.ServletContext;
-
+/**
+ * <a href="https://spring.io/blog/2016/04/15/testing-improvements-in-spring-boot-1-4">Spring Boot Test Example</a></a>
+ *
+ */
 @RunWith(SpringRunner.class)
 @WebMvcTest(BasicController.class)
 public class MVCTests {
