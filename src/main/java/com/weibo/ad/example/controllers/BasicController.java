@@ -1,4 +1,4 @@
-package com.weibo.ad.example;
+package com.weibo.ad.example.controllers;
 
 
 import com.weibo.ad.example.entity.BasicJsonEntity;
