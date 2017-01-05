@@ -184,7 +184,7 @@ public class BasicController {
     @ResponseBody
     public String urlParam(@RequestParam("id") Integer id) {
         // GET /basic/url/?id=123
-        return "id: " + id;
+        return "id :" + id;
     }
 
     @RequestMapping(value = "/param", params = "test=true")
@@ -272,7 +272,4 @@ public class BasicController {
         map.put("name", "FTL");
         return "basic/forupload";
     }
-
-
-
 }
