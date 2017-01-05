@@ -20,6 +20,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * <a href="https://spring.io/blog/2016/04/15/testing-improvements-in-spring-boot-1-4">Spring Boot Test Example</a></a>
  *
+ * http://www.jianshu.com/p/972cd6b93206
  */
 @RunWith(SpringRunner.class)
 @WebMvcTest(BasicController.class)
