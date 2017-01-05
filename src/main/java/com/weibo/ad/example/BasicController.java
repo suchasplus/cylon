@@ -1,9 +1,9 @@
-package com.weibo.ad.cylon;
+package com.weibo.ad.example;
 
 
-import com.weibo.ad.cylon.entity.BasicJsonEntity;
-import com.weibo.ad.cylon.entity.RespBuilder;
-import com.weibo.ad.cylon.entity.JsonReturn;
+import com.weibo.ad.example.entity.BasicJsonEntity;
+import com.weibo.ad.example.entity.RespBuilder;
+import com.weibo.ad.example.entity.JsonReturn;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.MediaType;

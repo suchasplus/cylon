@@ -1,4 +1,4 @@
-package com.weibo.ad.cylon.entity;
+package com.weibo.ad.example.entity;
 
 
 import lombok.Getter;

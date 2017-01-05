@@ -1,4 +1,4 @@
-package com.weibo.ad.cylon.entity;
+package com.weibo.ad.example.entity;
 
 public class RespBuilder {
     public static <T> JsonReturn<T> build(T t, Integer code, String msg) {
