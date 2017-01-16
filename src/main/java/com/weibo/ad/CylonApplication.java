@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.boot.autoconfigure.session.SessionAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {
@@ -17,6 +18,7 @@ import org.springframework.boot.autoconfigure.session.SessionAutoConfiguration;
 		MongoAutoConfiguration.class,
 		MongoDataAutoConfiguration.class
 })
+@ComponentScan
 public class CylonApplication {
 
 	public static void main(String[] args) {
