@@ -1,10 +1,18 @@
 package com.weibo.ad.example.entity;
 
+import jdk.nashorn.internal.ir.annotations.Immutable;
+
 import java.io.Serializable;
 import java.util.Date;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
+@Entity
+@Table()
 public class GuardApiEntity implements Serializable {
 
+    @Column()
     private Integer id;
     private String hash;
     private String name;
